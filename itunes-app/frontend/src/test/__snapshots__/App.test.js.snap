@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly when there are no items 1`] = `
+<div
+  className="sc-bcXHqe dqFPfI"
+>
+  <div />
+  <div
+    className="sc-gswNZR gjWgKi"
+  />
+  <div
+    className="sc-gswNZR gjWgKi"
+  />
+  <div>
+    <img />
+  </div>
+</div>
+`;

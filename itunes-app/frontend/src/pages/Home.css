@@ -1,0 +1,58 @@
+/*css for home page*/
+.StyledTable {
+    border-collapse: collapse;
+    margin: auto;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 800px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.StyledTable thead tr {
+    background-color: #327f87;
+    color: #ffffff;
+    text-align: left;
+}
+
+.StyledTable th,
+.StyledTable td {
+    padding: 12px 15px;
+}
+
+.StyledTable tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.StyledTable tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.StyledTable tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+.Btn {
+    border: none;
+    color: white;
+    padding: 5px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.BtnEdit {
+    background-color: #81a135;
+}
+
+.BtnDelete {
+    background-color: #f44336;
+}
+
+.BtnView {
+    background-color: #9ed9db;
+    color: black;
+}
